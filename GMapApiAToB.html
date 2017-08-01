@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Google Maps Test</title>
+			<link rel="stylesheet" type="text/css" href="GMapApiAToB.css">
+			<script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+			<script src="GMapApiAToB.js"></script>
+		</head>
+	<body>
+		<div id="map"></div>
+		<input id="Search_Bar" class="controls" type="text" placeholder="Search Box">
+		<div id="Travel-panel">
+			Mode of Travel:
+			<select id="mode">
+				<option value="DRIVING">Driving</option>
+				<option value="WALKING">Walking</option>
+				<option value="BICYCLING">Bicycling</option>
+				<option value="TRANSIT">Transit</option>
+			</select>
+		</div>
+		<div id="right-panel" style="width:20%"></div>
+	</body>
+</html>
